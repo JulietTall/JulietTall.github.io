@@ -1,0 +1,21 @@
+# Site settings
+title: From ABCs and 123s to Hello World!
+header-img: img/home-bg.png
+email: jktallmer2@gmail.com
+copyright_name: JulietTall
+description: > # this means to ignore newlines until "baseurl:"
+  From Preschool Teacher to Web Developer
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  JulietTall
+learn_profile: JulietTall
+email_username: jktallmer2@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
