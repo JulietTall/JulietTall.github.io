@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Spaces Are Important"
-date:   2017-08-15 22:16:41 +0000
+title:  "Spaces Are Important!"
+date:   2017-08-15 18:16:42 -0400
 ---
 
 Can you tell the difference between these strings of code? Look very closely.
