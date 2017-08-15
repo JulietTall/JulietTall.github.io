@@ -38,7 +38,7 @@ After creating this string of code, it should have:
 
 Pretty simple, right? I already built most of this string in a previous lab:
 ```
-+def display_board
+def display_board
  puts "   |   |   "
  puts "-----------"
  puts "   |   |   "
