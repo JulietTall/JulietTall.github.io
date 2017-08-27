@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Different Strategies, Same Solution"
-date:   2017-08-27 19:15:49 +0000
+date:   2017-08-27 15:15:50 -0400
 ---
 
 
@@ -15,7 +15,7 @@ In one lab, we were asked to build a simplified version of the display_board met
 3. There are 3 rows, with 2 separating lines of 11 - (dash) characters: -----------
 
 This is the method I built:
-'''
+```
 def display_board
 puts "   |   |   "
 puts "-----------"
@@ -23,11 +23,11 @@ puts "   |   |   "
 puts "-----------"
 puts "   |   |   "
 end
-'''
+```
 I think this method is pretty simple and straightforward - Ruby executes each string to output each row of the Tic Tac Toe board. However, I wonder if there is a way I could have made the method less repetitive.
 
 Here is a method built by Peer A:
-'''
+```
 def display_board
   row_1 = ["   ","   ","   "]
   row_2 = ["   ","   ","   "]
@@ -56,13 +56,13 @@ def display_board
 end
 
 display_board()
-'''
+```
 
 In this method, Peer A defined the rows and cells as arrays. When Ruby executes this method, it prints items from the different arrays. Even though this method passed tests and produced the same results, this strategy isn't very simple and is quite repetitive.
 
 Here is a method built by Peer B:
 
-'''
+```
 def display_board
   puts "   " '|' "   " '|' "   "
   puts "-----------"
@@ -70,11 +70,12 @@ def display_board
   puts "-----------"
   puts "   " '|' "   " '|' "   "
  end
- '''
- This method built by Peer B is very similar to the method I came up with. Even though this method passed and produced the same results, I think eliminating the ' ' around the |'s would make this code more simple.
+```
+
+This method built by Peer B is very similar to the method I came up with. Even though this method passed and produced the same results, I think eliminating the ' ' around the |'s would make this code more simple.
  
  Here is a method built by Peer C:
- '''
+```
  def display_board
   cells = "   |   |   "
   lines = "-----------"
@@ -84,7 +85,7 @@ def display_board
   puts lines
   puts cells
 end
-'''
+```
 
 In this method, Peer C defined two variables. Cells are defined as a string of "   |   |   " and lines are defined as a string of "-----------". When Ruby executes this method, it evaluates and outputs the variables. While this method may not be as simple, I think this one is really cool. Peer C found a way to avoid entering "   |   |   "  and "-----------" multiple times - which has the potential to create typos and causes errors. It's easier to accurately type "puts cells" and "puts lines."
 
