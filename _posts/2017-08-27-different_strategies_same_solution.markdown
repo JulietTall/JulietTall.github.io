@@ -10,9 +10,9 @@ In the education field, there is a curriculum called *Cognitively Guided Instruc
 While working through my Full Stack Web Development course, I have been trying to implement this teaching practice on myself as a way to reflect on my completed labs. After I finish a lab, I like to select a few of my peers' pull requests on GitHub. Unfortunately, since we are not altogether in a classroom, I've been trying to present and describe their strategies to myself on their behalf. I also like to evaluate different strategies - whether the code is simple, eloquent, and nonrepetitive.
 
 In one lab, we were asked to build a simplified version of the display_board method in which:
-1. Each cell is presented by a string with 3 spaces:"   "
-2. Each row has 3 cells, the middle separated by 2 | (pipe) characters:   |   |    
-3. There are 3 rows, with 2 separating lines of 11 - (dash) characters: -----------
+1. Each cell is presented by a string with 3 spaces.
+2. Each row has 3 cells, the middle separated by 2 pipe characters. 
+3. There are 3 rows, with 2 separating lines of 11 dash characters.
 
 This is the method I built:
 ```
@@ -72,7 +72,7 @@ def display_board
  end
 ```
 
-This method built by Peer B is very similar to the method I came up with. Even though this method passed and produced the same results, I think eliminating the ' ' around the |'s would make this code more simple.
+This method built by Peer B is very similar to the method I came up with. Even though this method passed and produced the same results, I think eliminating the ' ' around the pipe characters would make this code more simple.
  
  Here is a method built by Peer C:
 ```
@@ -87,6 +87,6 @@ This method built by Peer B is very similar to the method I came up with. Even t
 end
 ```
 
-In this method, Peer C defined two variables. Cells are defined as a string of "   |   |   " and lines are defined as a string of "-----------". When Ruby executes this method, it evaluates and outputs the variables. While this method may not be as simple, I think this one is really cool. Peer C found a way to avoid entering "   |   |   "  and "-----------" multiple times - which has the potential to create typos and causes errors. It's easier to accurately type "puts cells" and "puts lines."
+In this method, Peer C defined two variables. Cells are defined as a string of 3 spaces, 1 pipe character, 3 spaces, 1 pipe character, and 3 spaces. Lines are defined as a string of 11 dash characters. When Ruby executes this method, it evaluates and outputs the variables. While this method may not be as simple, I think this one is really cool. Peer C found a way to avoid entering spaces, pipes, and dashes multiple times - which has the potential to create typos and causes errors. It's easier to accurately type "puts cells" and "puts lines."
 
 It's so amazing that there are so many different strategies to arrive at the same solution. I hope to continue to merge my two passions for education and web development by using Cognitively Guided Instruction both in the classroom as an early childhood educator and behind the screen as a student.
