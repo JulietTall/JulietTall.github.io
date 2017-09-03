@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A Visual Representation of Nested Arrays"
-date:   2017-09-03 01:18:00 +0000
+date:   2017-09-02 21:18:01 -0400
 ---
 
 
@@ -19,12 +19,12 @@ nested_students = [
 ```
 
 This nested array would look like this:
-![](https://imgur.com/wy7VZa1)
+![](https://i.imgur.com/wy7VZa1.png)
 
 If I wanted to access `nested_students[2][1]`, I would color in this box:
-![](https://imgur.com/ETwLEWg)
+![](https://i.imgur.com/ETwLEWg.png)
 
 If I wanted to access `nested students[1][1]`, I would color in this box:
-![](https://imgur.com/GIHCuR5)
+![](https://i.imgur.com/GIHCuR5.png)
 
 I think using a different learning modality to help process new information is a great way to promote thinking and to build knowledge. I'm definitely going to try applying other concepts to visual representations as well!
