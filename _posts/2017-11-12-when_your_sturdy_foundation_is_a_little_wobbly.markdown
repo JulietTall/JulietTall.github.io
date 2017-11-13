@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "When Your Sturdy Foundation is a Little Wobbly "
-date:       2017-11-13 02:05:02 +0000
+date:       2017-11-12 21:05:03 -0500
 permalink:  when_your_sturdy_foundation_is_a_little_wobbly
 ---
 
@@ -13,9 +13,9 @@ I have been struggling to get through the HTML & CSS section in this course. Wha
 In the midst of all this, I decided to use Codeacademy for supplemental practice and material. While working through a lesson there, I came across a tip that really stuck a chord with me: "Know that each brick is sound and stable before you put another one on top of it."
 
 I know that I can't continue on until I master the necessary concepts. My wobbly structures will continue to fall down until I change my plan. My plan of action is to incorporate other resources in to my learning such as:
-[Codeacademy](https://www.codecademy.com)
-[w3schools](https://www.w3schools.com/html/)
-[Tizag](http://www.tizag.com/htmlT/)
-[HTML and CSS: Design and Build Websites by Jon Duckett](https://www.amazon.com/gp/product/1118008189/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&psc=1)
+* [Codeacademy](https://www.codecademy.com)
+* [w3schools](https://www.w3schools.com/html/)
+* [Tizag](http://www.tizag.com/htmlT/)
+* [HTML and CSS: Design and Build Websites by Jon Duckett](https://www.amazon.com/gp/product/1118008189/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&psc=1)
 
 Here's to building a more sturdy building! I feel ready now to conquer HTML & CSS.
